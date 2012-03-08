@@ -1,6 +1,6 @@
 如果使用第三方框架，并且有提供代码样式说明，则遵循其代码样式标准，否则如下！
 
-== 格式：
+## 格式：
 
 * 使用UTF-8编码
 
@@ -27,7 +27,7 @@
 
 * 单行代码也必须使用分号（;）结束
 
-== 命名：
+## 命名：
 
 * 文件名使用snake_case方式，禁止使用臃肿的文件名
 
@@ -39,7 +39,8 @@
 
 * 常量名使用SCREAMING_SNAKE_CASE方式
 
-  ```PHP
+  ```php
+  <?php
   // bad
   superclass.php
   SuperClass.php
@@ -77,11 +78,11 @@
 
   function getFileProperties()
   ```
-== 语法：
+## 语法：
 
 对于嵌入HTML中的PHP代码，对于像if, for, foreach, while等代码块，采用if: ... endif; for: ... endfor; foreach: ... endforeach;以及 while: ... endwhile;方法块
 
-  ```PHP
+  ```php
   ...
   <?php if ($user->isLoggedIn()): // checking logged in ?>
   <!-- HTML goes here. -->
@@ -93,13 +94,13 @@
   ...
   ```
 
-== 注释：
+## 注释：
 
 * 文档块必须和phpDocumentor格式兼容，请参考： [url]http://phpdoc.org/[/url]
 
 * 避免多余的意见
 
-  ```PHP
+  ```php
   /**
    * 控制器类说明信息
    */
@@ -120,14 +121,14 @@
   /* End of file controller.php */
   ```
 
-== 其他：
+## 其他：
 
 * 保持代码简单
 
 * 保持一致性
 
 
-== 参考：
+## 参考：
 [CodeIgniter](http://codeigniter.com/user_guide/general/styleguide.html)
 [Zend Framework](http://framework.zend.com/manual/zh/coding-standard.coding-style.html)
 [WordPress](http://codex.wordpress.org/WordPress_Coding_Standards)
