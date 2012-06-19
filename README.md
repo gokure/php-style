@@ -96,7 +96,7 @@
 
 ## 注释：
 
-* 文档块必须和phpDocumentor格式兼容，请参考： [url]http://phpdoc.org/[/url]
+* 文档块必须和phpDocumentor格式兼容，请参考： [phpdoc](http://phpdoc.org/)
 
 * 避免多余的意见
 
