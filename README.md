@@ -1,5 +1,7 @@
 如果使用第三方框架，并且有提供代码样式说明，则遵循其代码样式标准，否则如下！
 
+> **下面的规范已弃用**，具体参见[PHP-FIG](http://www.php-fig.org/)的<abbr title="PHP Standard Recommendation">PSR规范</abbr>或[中译版](https://github.com/PizzaLiu/PHP-FIG/)
+
 ## 格式：
 
 * 使用UTF-8编码
